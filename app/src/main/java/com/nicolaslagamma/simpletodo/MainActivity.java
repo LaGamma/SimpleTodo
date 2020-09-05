@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
 
     // Handle the result of the edit activity
     @Override
-    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if (resultCode == RESULT_OK && requestCode == EDIT_TEXT_CODE) {
             // Retrieve the update text value
